@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css" />
+    <script
+      src="https://kit.fontawesome.com/38cea42070.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="information">
+        <div class="correct__answers">
+          <span class="correct">&#10003; 0 correct</span>
+          <span class="incorrect">&#10005; 0 wrong</span>
+        </div>
+        <i class="fas fa-clock"></i><span class="cronometro"> 00:00</span>
+      </div>
+      <div class="questions">
+        <h3 class="number__question">Question</h3>
+        <p class="question__copy">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+          debitis?
+        </p>
+        <span class="answer__question">Answers options</span>
+        <ul class="options__answers">
+          <li>
+            <input
+              id="a"
+              name="answers"
+              type="radio"
+              class="x__question a__question"
+            /><label for="a" class="nswer a_nswer">Question</label>
+          </li>
+          <li>
+            <input
+              id="b"
+              name="answers"
+              type="radio"
+              class="x__question b__question"
+            /><label for="b" class="nswer b_nswer">Question</label>
+          </li>
+          <li>
+            <input
+              id="c"
+              name="answers"
+              type="radio"
+              class="x__question c__question"
+            /><label for="c" class="nswer c_nswer">Question</label>
+          </li>
+        </ul>
+      </div>
+      <button class="btn__question">Send Answer</button>
+      <div class="resultados">
+        <h2 class="resultados__title">Resultados</h2>
+        <span class="correct-r correct-modi">&#10003; 0 correct</span>
+        <span class="incorrect-r">&#10005; 0 wrong</span>
+        <p>Click para Salir!</p>
+      </div>
+    </div>
+    <script src="/javascript.js"></script>
+  </body>
+</html>
